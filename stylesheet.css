@@ -166,7 +166,7 @@ p {
     padding-right: 50px;
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1200px) {
     .nav_links {
         display: block;
         justify-content: space-around;

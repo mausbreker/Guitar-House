@@ -165,3 +165,10 @@ p {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+@media (min-width: 1000px) {
+    .nav_links {
+        display: block;
+        justify-content: space-around;
+    }
+}

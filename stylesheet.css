@@ -168,7 +168,10 @@ p {
 
 @media (max-width: 1200px) {
     .nav_links {
-        display: block;
-        justify-content: space-around;
+        width: 75%;
+    }
+
+    .header_text {
+        font-size: 1.17em;
     }
 }

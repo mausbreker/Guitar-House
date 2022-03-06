@@ -49,6 +49,10 @@ nav {
     transition: 0.2s;
 }
 
+#guitar {
+    height: 70px;
+}
+
 .header_text:hover {
     color: rgb(250, 250, 235);
 }
@@ -173,5 +177,126 @@ p {
 
     .header_text {
         font-size: 1.17em;
+    }
+}
+
+@media (max-width: 900px) {
+    .learncontainer {
+        width: 50%;
+    }
+}
+
+@media (max-width: 750px) {
+    .bckgrd_img {
+        height: 500px;
+    }
+
+    .nav_links_style {
+        font-size: 16px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .footer_title {
+        display: none;
+    }
+
+    .learncontainer h1 {
+        font-size: 20px;
+    }
+    
+    .learncontainer p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav_links {
+        display: block;
+        text-align: center;
+    }
+
+    .header_text {
+        display: none;
+    }
+
+    nav {
+        padding: 10px
+    }
+
+    #guitar {
+        height: 90px;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer_text {
+        font-size: 13px;
+    }
+
+    .copyright {
+        font-size: 6px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .footer_col {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .footer_text {
+        font-size: 13px;;
+    }
+    
+    .learncontainer h1 {
+        font-size: 16px;
+    }
+    
+    .learncontainer p {
+        font-size: 13px;
+    }
+
+    .nav_links_style {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .copyright {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 230px) {
+    .footer_text {
+        font-size: 10px;;
+    }
+    
+    .learncontainer h1 {
+        font-size: 13px;
+    }
+    
+    .learncontainer p {
+        font-size: 10px;
+    }
+
+    .nav_links_style {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .copyright {
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 200px) {
+    body {
+        display: none;
     }
 }

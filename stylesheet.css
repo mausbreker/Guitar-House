@@ -216,7 +216,8 @@ p {
 @media (max-width: 650px) {
     .nav_links {
         display: block;
-        text-align: center;
+        text-align: right;
+        margin-right: 25px;
     }
 
     .header_text {

@@ -183,12 +183,13 @@ p {
 @media (max-width: 900px) {
     .learncontainer {
         width: 50%;
+        padding: 0px 20px;
     }
 }
 
 @media (max-width: 750px) {
     .bckgrd_img {
-        height: 800px;
+        height: 500px;
     }
 
     .nav_links_style {
@@ -228,6 +229,7 @@ p {
 
     #guitar {
         height: 90px;
+        margin-left: 30px;
     }
 }
 
@@ -245,7 +247,7 @@ p {
     }
 
     .footer_col {
-        padding: 10px;
+        padding: 1px 20px;
     }
 }
 
